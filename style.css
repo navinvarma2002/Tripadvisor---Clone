@@ -169,7 +169,7 @@ img{
     border-radius: 25px;
 }
 
-<!---Container1--->
+
 .card-container{
 
 
@@ -322,7 +322,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 80px;
+    margin-top: 50px;
     gap: 40px;
     flex-wrap: wrap;
     position: relative;
