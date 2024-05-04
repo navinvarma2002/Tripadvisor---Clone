@@ -1,0 +1,508 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+        margin: 20px;
+        font-family: "Poppins", sans-serif;
+
+
+}
+img{
+
+    height: 50px;
+    width: 200px;
+
+}
+
+.Search{
+
+    display: flex;
+    border: solid #E1E1E1 2px;
+    padding: 10px;
+    display: inline-block;
+    gap: 20px;
+    border-radius: 30px;
+    width:40%;
+    justify-content: center;
+    align-items: center;
+
+}
+.searchbar{
+
+    border: none;
+    width: 80%;
+    padding-bottom: 5px;
+    border-color: #E1E1E1;
+}
+.searchbar input{
+
+    border: none;
+}
+
+.Navbar-section1{
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
+
+}
+
+.section1__end{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-right: 20px;
+}
+.section1__end .Sign{
+
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+}
+.section1__end p{
+
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    
+   
+
+}
+.section1__end p:hover{
+
+    
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+
+
+
+
+.section2{
+
+    display:flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: left;
+    margin-left: 55px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    position: sticky;
+   
+
+}
+
+.section2 p{
+
+
+    border-bottom: solid transparent 1px;
+
+
+}
+
+.section2 p:hover{
+
+
+    border-bottom: solid black 1px;
+    cursor: pointer;
+
+}
+.section3{
+
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.section4{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 30px;
+    font-size: 17px;
+}
+
+.section4 p{
+
+    border-bottom: solid transparent 1px;
+ 
+}
+.section4 p:hover{
+
+
+    border-bottom: solid black 1px;
+    cursor: pointer;
+
+}
+
+.section5{
+     margin-top: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.adv-img1{
+
+    height: 370px;
+    width: 1200px;
+    border-radius: 25px;
+}
+
+<!---Container1--->
+.card-container{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+
+
+
+
+}
+.card{
+
+    position: relative;
+}
+.trip__1{
+
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    
+}
+.trip-1{
+
+    
+     position: absolute;
+     bottom: 10%;
+     left: 5px;
+     font-size: 25px;
+     color: white;
+     padding: 5px;
+     border-radius: 20px;
+     background-color: rgba(0, 0, 0, 0.5);
+    
+     
+}
+
+.card-container__heading{
+
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+.card-container{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+
+
+
+
+}
+.card{
+
+    position: relative;
+}
+.trip__1{
+
+    height: 290px;
+    width: 290px;
+    border-radius: 20px;
+    
+}
+.trip-1{
+
+    
+     position: absolute;
+     bottom: 10%;
+     left: 5px;
+     font-size: 25px;
+     color: white;
+     padding: 5px;
+     border-radius: 20px;
+     background-color: rgba(0, 0, 0, 0.5);
+    
+     
+}
+
+.card-container__heading1{
+
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+.card-container__heading2{
+
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+.card-container2{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 40px;
+    flex-wrap: wrap;
+    position: relative;
+
+
+}
+
+
+.card2{
+
+    position: relative;
+    
+}
+.trip__2{
+
+    height: 265px;
+    width: 265px;
+    border-radius: 10px;
+
+    
+}
+.trip-2{
+
+    
+     position: absolute;
+     
+     left: 5px;
+     font-size: 13px;
+     color:black;
+     padding: 5px;
+     width: 100%;
+
+      
+}
+
+
+.card-container3{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 40px;
+    flex-wrap: wrap;
+    position: relative;
+
+
+}
+
+
+
+.card-container__heading3{
+
+    padding-top: 60px;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+
+.card-container3{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 40px;
+    flex-wrap: wrap;
+    position: relative;
+    
+
+
+}
+
+
+.card3{
+
+    position: relative;
+    
+}
+.trip__3{
+
+    height: 265px;
+    width: 350px;
+    border-radius: 10px;
+
+    
+}
+.trip-3{
+
+    
+     position: absolute;
+     
+     left: 5px;
+     font-size: 13px;
+     color:black;
+     padding: 5px;
+     width: 100%;
+
+      
+}
+
+
+.card-container4{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 40px;
+    flex-wrap: wrap;
+    position: relative;
+    background-color:#F2E7DC;
+    padding: 70px;    
+    border-radius: 30px;
+   
+
+
+}
+
+
+.card4{
+
+    position: relative;
+    
+}
+.trip__4{
+
+    height: 265px;
+    width: 350px;
+    border-radius: 10px;
+    
+   
+
+    
+}
+.trip-4{
+
+    
+     position: absolute;
+     
+     left: 5px;
+     font-size: 13px;
+     color:black;
+     padding: 5px;
+     width: 100%;
+     color: black;
+
+      
+}
+
+.section6{
+
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adv-img2{
+
+    height: 450px;
+    width: 1100px;
+    border-radius: 25px;
+}
+
+
+.Footer{
+
+    background-color: #F2E7DC;
+    color: black;
+    padding: 10px;
+margin-top: 10px;
+    border-radius: 30px;
+  
+}
+.footer-one{
+
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+    gap: 30px;
+}
+.footer-one p{
+   
+    gap: 5px;
+}
+.footer-two{
+
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    justify-content:left;
+    gap: 10px;
+}
+
+.footer-one__s1, .footer-one__s2, .footer-one__s3 p{
+        
+    font-size: 14px;
+
+}
+.Titleicon{
+
+    height: 50px;
+    width: 50px;
+    border-radius: 90px;
+}
+
+.footer-three{
+
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    justify-content:right;
+    gap: 10px;
+}
+
+.footer-three select {
+
+     padding: 5px;
+     font-size:16px;
+     border-radius: 20px;
+   
+}
