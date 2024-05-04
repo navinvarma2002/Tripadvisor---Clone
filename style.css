@@ -556,8 +556,8 @@ margin-top: 10px;
     }
     .adv-img1{
 
-        height: 250px;
-        width: 380px;
+        height: 230px;
+        width: 350px;
     }
 
     .card-containe{
@@ -583,8 +583,8 @@ margin-top: 10px;
         height: 200px;
     }
     .adv-img2{
-        height: 250px;
-        width: 380px;
+        height: 230px;
+        width: 350px;
     }
     .card-container4{
 
@@ -592,17 +592,18 @@ margin-top: 10px;
     }
     .footer-one__s1 p{
 
-        font-size: 12px;
+        font-size: 10px;
+        padding: 1px;
         
     }
     .footer-one__s2 p{
 
-        font-size: 12px;
+        font-size: 10px;
         padding: 1px;
     }
     .footer-one__s3 p{
 
-        font-size: 12px;
+        font-size: 10px;
         padding: 1px;
     }
     .trip__4{
@@ -610,4 +611,7 @@ margin-top: 10px;
         height: 150px;
         width: 200px;
     }
+
+
+        
 }
